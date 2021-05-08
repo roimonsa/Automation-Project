@@ -40,7 +40,7 @@ public class BaseTest {
 	@BeforeClass
 	public void setup(ITestContext testContext) {
 		//Setup chromedriver by WebDriverManager
-		// WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().setup();
 		//Configure of the browser
 		driver = new ChromeDriver();
 		//Maximize the window 
